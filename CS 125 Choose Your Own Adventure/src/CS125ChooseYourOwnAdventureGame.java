@@ -4,7 +4,7 @@
 
 /**
  * @author cresh2 and kaip2
- * hello 
+ * hello again
  */
 public class CS125ChooseYourOwnAdventureGame {
 
