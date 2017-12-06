@@ -1,10 +1,6 @@
 /**
- * 
- */
-
-/**
  * @author cresh2 and kaip2
- * hello again
+ * hello again hi
  */
 public class CS125ChooseYourOwnAdventureGame {
 
