@@ -1,15 +1,29 @@
 /**
+ * A fun choose-your-own adventure game about CS 125!
+ * 
  * @author cresh2 and kaip2
- * hello again hi
  */
+import java.util.Scanner;
 public class CS125ChooseYourOwnAdventureGame {
 
 	/**
 	 * @param args
 	 */
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		System.out.println();
+		//Student game = new Student();
+		Scanner input = new Scanner(System.in);
+		int answer = 0;
+		//Scenario story = game.create();
+		
+		//Beginning of the user interface
+		System.out.println("This is a CS 125 Choose-your-own Adventure! Enjoy!");
+		
+		do {
+			System.out.println();
+		}while (answer != 0);
+		input.close();
+		System.out.print("Thank you for playing!");
+		
 	}
 
 }
