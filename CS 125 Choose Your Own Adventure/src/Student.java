@@ -11,6 +11,8 @@ public class Student {
 	}
 	
 	public Scenario create() {
+		Scenario temp1, temp2, temp3, top;
+		
 		return null;
 	}
 }
