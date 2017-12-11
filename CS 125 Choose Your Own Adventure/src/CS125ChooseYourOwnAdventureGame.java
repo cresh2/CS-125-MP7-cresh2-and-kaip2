@@ -23,7 +23,12 @@ public class CS125ChooseYourOwnAdventureGame {
 			//if (story.getFirstAnswer != null) {
 				//System.out.println("1. " + story.getFirstAnswer());
 			//}
-			//if (story.getSecondAnswer(
+			//if (story.getSecondAnswer() != null) {
+				//System.out.println("2. "+ story.getSecondAnswer());
+			//}
+			//if (story.getFirstAnswer == null && story.getSecondAnswer() == null) {
+				//
+			
 		}while (answer != 0);
 		input.close();
 		System.out.print("Thank you for playing!");
