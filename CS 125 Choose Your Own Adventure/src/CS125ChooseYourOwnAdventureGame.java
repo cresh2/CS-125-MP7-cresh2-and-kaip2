@@ -19,7 +19,11 @@ public class CS125ChooseYourOwnAdventureGame {
 		System.out.println("This is a CS 125 Choose-your-own Adventure! Enjoy!");
 		
 		do {
-			System.out.println();
+			//System.out.println(story.getMessage() + "\n");
+			//if (story.getFirstAnswer != null) {
+				//System.out.println("1. " + story.getFirstAnswer());
+			//}
+			//if (story.getSecondAnswer(
 		}while (answer != 0);
 		input.close();
 		System.out.print("Thank you for playing!");

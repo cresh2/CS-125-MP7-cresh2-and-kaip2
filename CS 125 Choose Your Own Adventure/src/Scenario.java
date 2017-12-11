@@ -50,22 +50,22 @@ public class Scenario {
 	 * Creates the first answer and scenario for that answer.
 	 * 
 	 * @param newAnswer the first answer to the scenario
-	 * @param newMessage the scenario message for the first answer's scenario
+	 * @param newScenarioFor1 the scenario for the first answer
 	 */
-	public void createAnswer1(final String newAnswer, final String newMessage) {
+	public void createAnswer1(final String newAnswer, final Scenario newScenarioFor1) {
 		answer1 = newAnswer;
-		scenarioFor1 = new Scenario(newMessage);
+		scenarioFor1 = newScenarioFor1;
 	}
 	
 	/**
 	 * Creates the second answer and scenario for that answer.
 	 * 
 	 * @param newAnswer the second answer to the scenario
-	 * @param newMessage the scenario message for the second answer's scenario
+	 * @param newScenarioFor2 the scenario for the second answer
 	 */
-	public void createAnswer2(final String newAnswer, final String newMessage) {
+	public void createAnswer2(final String newAnswer, final Scenario newScenarioFor2) {
 		answer2 = newAnswer;
-		scenarioFor2 = new Scenario(newMessage);
+		scenarioFor2 = newScenarioFor2;
 	}
 	
 	/**
