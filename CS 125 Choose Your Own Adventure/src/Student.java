@@ -30,6 +30,6 @@ public class Student {
 				+ "unbelievably distinguished computer science teacher. This gives you the confidence \n"
 				+ "to trust in this guy to succeed in the class, which you do a great job of");
 		top.createAnswer2("Investigate further.", temp1);
-		return null;
+		return top;
 	}
 }
