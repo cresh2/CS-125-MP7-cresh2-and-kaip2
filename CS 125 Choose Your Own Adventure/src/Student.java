@@ -53,8 +53,8 @@ public class Student {
 				+ "decision to drop the class as well.");
 		top.createAnswer2("Give up.", temp1);
 		temp2 = top;
-		top = new Scenario("You decided to take cs 125,and youve just been assigned an MP youre not \n"
-				+ "quite sure how to do,");
+		top = new Scenario("You decided to take CS 125,and you've just been assigned an MP you're not \n"
+				+ "quite sure how to do it, do you...");
 		top.createAnswer1("Try and figure it out on your own", temp2);
 		temp3 = new Scenario("You drop the class after deciding it wasn't worth it because Professor\n"
 				+ "Chapman is the G.O.A.T.");

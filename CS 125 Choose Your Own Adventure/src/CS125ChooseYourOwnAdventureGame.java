@@ -1,5 +1,4 @@
 /**
- * A fun choose-your-own adventure game about CS 125!
  * 
  * @author cresh2 and kaip2
  */
@@ -21,14 +20,14 @@ public class CS125ChooseYourOwnAdventureGame {
 		
 		do {
 			System.out.println(story.getMessage() + "\n");
-			System.out.println("Answers:");
-			if (story.getFirstAnswer() != null) {
+			if (story.getFirstAnswerScenario() != null) {
+				System.out.println("Answers:");
 				System.out.println("1. " + story.getFirstAnswer());
 			}
-			if (story.getSecondAnswer() != null) {
+			if (story.getSecondAnswerScenario() != null) {
 				System.out.println("2. " + story.getSecondAnswer());
 			}
-			if (story.getFirstAnswer() == null && story.getSecondAnswer() == null) {
+			if (story.getFirstAnswerScenario() == null && story.getSecondAnswerScenario() == null) {
 				answer = 0;
 			} else {
 				System.out.println("Which answer do you choose? Type 1 for answer 1, 2 for answer 2, or 0 to quit entirely: ");
