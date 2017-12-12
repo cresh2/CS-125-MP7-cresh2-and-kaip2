@@ -1,4 +1,5 @@
 /**
+ * A Choose-your-own Adventure game for CS 125.
  * 
  * @author cresh2 and kaip2
  */
