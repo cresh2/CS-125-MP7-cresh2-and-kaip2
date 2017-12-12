@@ -31,8 +31,9 @@ public class CS125ChooseYourOwnAdventureGame {
 			if (story.getFirstAnswerScenario() == null && story.getSecondAnswerScenario() == null) {
 				answer = 0;
 			} else {
-				System.out.println("Which answer do you choose? Type 1 for answer 1, 2 for answer 2, or 0 to quit entirely: ");
+				System.out.print("Which answer do you choose? Type 1 for answer 1, 2 for answer 2, or 0 to quit entirely: ");
 				answer = input.nextInt();
+				System.out.println();
 				
 				// Checks if the answer is valid
 				do {
@@ -55,8 +56,9 @@ public class CS125ChooseYourOwnAdventureGame {
 							break;
 					}
 					if (isValidAnswer == false) {
-						System.out.println("Please enter a valid choice: ");
+						System.out.print("Please enter a valid choice: ");
 						answer = input.nextInt();
+						System.out.println();
 					}
 				} while (isValidAnswer == false);
 			}
