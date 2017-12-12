@@ -9,7 +9,11 @@ public class Student {
 	 */
 	public Student() {
 	}
-	
+	/**
+	 * Creates the tree that our story follows.
+	 * 
+	 * @return the very top node of the tree.
+	 */
 	public Scenario create() {
 		Scenario temp1, temp2, temp3, top, top2;
 		temp1 = new Scenario("You along with the majority of the class ask \n"
