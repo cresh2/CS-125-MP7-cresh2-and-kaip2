@@ -1,7 +1,7 @@
 /**
  * Builds the binary tree that the game runs through.
  * 
- * @author Kai
+ * @author kaip2
  */
 public class Student {
 	/**
